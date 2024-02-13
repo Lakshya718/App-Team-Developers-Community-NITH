@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: auto;
+  background-color: black;
+  height: 11vh;
+}
+.heading {
+  text-align: center;
+}
+.main-member {
+  display: grid;
+  grid-template-columns: 1fr; /* One column */
+  grid-gap: 10px; /* Adjust the gap between items */
+  text-align: center;
+  justify-content: center; /* Align items horizontally to the center */
+  align-items: center;
+}
+
+.secretary {
+  max-width: 40vh;
+}
+.convenor {
+  max-width: 40vh;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+img {
+  border-radius: 100px;
+  border: 1px solid orangered;
+}
